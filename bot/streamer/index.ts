@@ -1,7 +1,7 @@
-import youtube from './youtube.js'
-import custom from './custom.js'
-import audio from './audio.js'
-import stop from './stop.js'
+import youtube from "./youtube.ts";
+import custom from "./custom.ts";
+import audio from "./audio.ts";
+import stop from "./stop.ts";
 
-export * from './stream.js'
-export { audio, custom, youtube, stop }
+export * from "./stream.ts";
+export { audio, custom, stop, youtube };
